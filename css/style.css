@@ -1,0 +1,274 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+body a{
+  text-decoration: none;
+}
+/******************************************
+/* MAIN .WQQ
+/*******************************************/
+.wqq{
+  background: url(background1.png);
+  background-repeat: round;
+  line-height: 2.2em;
+  color: white;
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-bottom: 8%;
+}
+#lmm{
+  background: black;
+  padding: 1% 2%;
+}
+.mjj{
+  background: black;
+  width: 19%;
+  padding: 1% 2% 2% 2%;
+  line-height: 3.5em;
+  margin-top: 5%;
+  margin-bottom: -10%;
+}
+#qww{
+  color:black;
+  background: white;
+  padding: 7% 9%;
+}
+.wqq i{
+  float: right;
+  margin-top: 3%;
+  border: 1px hidden;
+  color: rgb(165, 133, 133);
+  background: white;
+  padding: 0.8%;
+  border-radius: 50%;
+}
+i.fa-arrow-right{
+  margin-right: 10%;
+}
+i.fa-arrow-left{
+  margin-right: 0.5%;
+}
+.mjj p>span{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+/******************************************
+/* MAIN .MBB
+/*******************************************/
+.mbb{
+  text-align: center;
+  margin: 0 22%;
+  margin-top: 4%;
+  line-height: 1.5em;
+  overflow: hidden;
+}
+.mbb > section{
+  float: left;
+  width: 33%;
+}
+/******************************************
+/* MAIN .PPQ
+/*******************************************/
+.ppq{
+  text-align: center;
+  margin-top: 4%;
+  overflow: hidden;
+  padding: 3% 22%;
+  line-height: 2.2em;
+  background: url(background2.png);
+}
+.ppq section{
+  float: left;
+  width: 50%;
+}
+.ppq img{
+  height: 22em;
+  width: 31em;
+}
+.ppq span{
+  background: black;
+  color: white;
+  padding: 2% 3%;
+}
+.ppq section:first-child{
+  text-align: start;
+}
+/******************************************
+/* MAIN .BGT
+/*******************************************/
+.bgt{
+  text-align: center;
+  line-height: 2em;
+  margin-top: 2%;
+  overflow: hidden;
+  line-height: 0.3em;
+  padding: 3% 20%;
+}
+.bgt > section{
+  float: left;
+  width: 33%;
+}
+.bgt img{
+  width: 21.5em;
+  height: 25.5em;
+}
+.bgt span{
+  background: black;
+  color: white;
+  display: block;
+  width: 70%;
+  margin-left: 16%;
+  line-height: 1.1em;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.xvv{
+  font-size: 1.4em;
+}
+main section .xvu{
+  margin-top: -2%;
+  padding: 5% 0;
+}
+/******************************************
+/* MAIN .BBB
+/*******************************************/
+.bbb {
+  margin-top: 2%;
+  line-height: 2.5em;
+  background: url(background3.png);
+  padding: 3% 0 4% 4%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 21%;
+  width: 58%;
+}
+.bbb p~p{
+  font-size: x-large;
+}
+.bbb p+p span{
+  font-weight: bold;
+}
+.bbb > a{
+  color: white;
+  background: black;
+  padding: 2% 3%;
+}
+.bbb > :first-child{
+  font-size: 1.4em;
+}
+/******************************************
+/* MAIN .PMK
+/*******************************************/
+.pmk{
+  margin-top: 3%;
+  text-align: center;
+  padding: 0 20%;
+}
+.pmk section{
+  float: left;
+  width: 33.3333%;
+  padding-bottom: 5%;
+  line-height: 5em;
+}
+.pmk span, .pmk i{
+  display: block;
+  font-size: x-large;
+}
+.pmk > section+section >i{
+  color: white;
+  background: black;
+  padding: 33% 0;
+  font-weight: lighter;
+  font-size: 7em;
+  margin: 0 3%;
+}
+img.wmm{
+  width: 23.5em;
+  height: 23.5em;
+}
+img.qkk{
+  width: 23.3em;
+  height: 49em;
+}
+/******************************************
+/* HEADER
+/*******************************************/
+header li{
+  float: left;
+  width: 9%;
+  list-style: none;
+}
+header a{
+  color: black;
+}
+header{
+  height: 1.4em;
+  padding: 0 11%;
+  padding-bottom: 2%;
+}
+header ul li:first-child{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.6em;
+  margin-top: -0.4%; 
+  margin-right: 5%;
+}
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+h1{
+  font-size: 4em;
+  font-weight: lighter;
+}
+h3{
+  font-size: 2em;
+}
+h5{
+  font-size: 1.3em;
+}
+p{
+  font-size: 1.2em;
+}
+a{
+  font-size: 1.19em;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media all and (max-width: 950px) {
+  header{
+    margin: 0;
+    padding: 0;
+    height: 2.5em;
+  }
+  main > section >*{
+    margin: 0;
+    padding: 0;
+    text-align: none;
+  }
+  img{
+    width: 100%;
+  }
+}
